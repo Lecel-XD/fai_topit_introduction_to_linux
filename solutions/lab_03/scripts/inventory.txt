@@ -1,0 +1,136 @@
+======================================
+Kernel
+======================================
+  name: Linux
+  release: 6.12.107+deb13-amd64
+  architecture: x86_64
+======================================
+OS
+======================================
+  name: Debian GNU/Linux
+  version: 13 (trixie)
+======================================
+Procesor
+======================================
+  name: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+  mhz: 1991.997
+  cores: 2
+  L1d cache: 64 KiB (2 instances)
+  L1i cache: 64 KiB (2 instances)
+  L2 cache: 512 KiB (2 instances)
+  L3 cache: 16 MiB (2 instances)
+======================================
+Memory
+======================================
+  total size: 2021020 kB
+======================================
+Motherboard
+======================================
+  motherboard: VirtualBox
+  BIOS version: VirtualBox
+  BIOS release date: 12/01/2006
+======================================
+PCI Devices
+======================================
+  00:00.0 Host bridge: Intel Corporation 440FX - 82441FX PMC [Natoma] (rev 02)
+  00:01.0 ISA bridge: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II]
+  00:01.1 IDE interface: Intel Corporation 82371AB/EB/MB PIIX4 IDE (rev 01)
+  00:02.0 VGA compatible controller: VMware SVGA II Adapter
+  00:03.0 Ethernet controller: Intel Corporation 82540EM Gigabit Ethernet Controller (rev 02)
+  00:04.0 System peripheral: InnoTek Systemberatung GmbH VirtualBox Guest Service
+  00:05.0 Multimedia audio controller: Intel Corporation 82801AA AC'97 Audio Controller (rev 01)
+  00:06.0 USB controller: Apple Inc. KeyLargo/Intrepid USB
+  00:07.0 Bridge: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 08)
+  00:0b.0 USB controller: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller
+  00:0d.0 SATA controller: Intel Corporation 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode] (rev 02)
+======================================
+Users
+======================================
+  Name: root
+  UID: 0
+  Groups: root
+  Last login: pts/1 Wed Nov 18 12:40:02 +0300 2026
+  Password changed: Nov 25, 2026
+  
+  Name: nobody
+  UID: 65534
+  Groups: nogroup
+  Last login: **Never logged in**
+  Password changed: Sep 11, 2026
+  
+  Name: lecel
+  UID: 1000
+  Groups: lecel cdrom floppy sudo audio dip video plugdev users netdev bluetooth
+  Last login: pts/1 Wed Nov 25 22:11:01 +0300 2026
+  Password changed: Sep 11, 2026
+  
+  Name: gvi-1
+  UID: 1001
+  Groups: gvi-1 sudo users
+  Last login: pts/0 Wed Nov 18 12:37:53 +0300 2026
+  Password changed: Nov 11, 2026
+  
+  Name: u1
+  UID: 1002
+  Groups: u1 project task3-3_admin
+  Last login: **Never logged in**
+  Password changed: Nov 11, 2026
+  
+  Name: u2
+  UID: 1003
+  Groups: u2 project
+  Last login: **Never logged in**
+  Password changed: Nov 25, 2026
+  
+  Name: u3
+  UID: 1004
+  Groups: u3 project
+  Last login: **Never logged in**
+  Password changed: Nov 11, 2026
+  
+  Name: u4
+  UID: 1005
+  Groups: u4 task3-3_group
+  Last login: **Never logged in**
+  Password changed: Nov 11, 2026
+  
+  Name: u5
+  UID: 1006
+  Groups: u5 task3-3_group
+  Last login: **Never logged in**
+  Password changed: Nov 11, 2026
+  
+======================================
+SSHD parameters
+======================================
+  permitrootlogin: no (default)
+  port: 2079 (custom)
+  logingracetime: 30 (default)
+  maxauthtries: 2 (default)
+  passwordauthentication: no (default)
+  pubkeyauthentication: yes (default)
+======================================
+Top 5 processes by memory
+======================================
+      PID    PPID USER     %MEM COMMAND
+     3160    3078 lecel     6.1 node
+     3078    3074 lecel     5.2 node
+     3112    3078 lecel     3.6 node
+     3179    3078 lecel     3.3 node
+      275       1 root      1.1 systemd-journal
+======================================
+Suspicious accounts
+======================================
+  None
+======================================
+SUID files
+======================================
+  /usr/bin/chfn
+  /usr/bin/sudo
+  /usr/bin/newgrp
+  /usr/bin/umount
+  /usr/bin/mount
+  /usr/bin/gpasswd
+  /usr/bin/su
+  /usr/bin/chsh
+  /usr/bin/passwd

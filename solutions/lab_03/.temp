@@ -1,0 +1,175 @@
+State Recv-Q Send-Q Local Address:Port Peer Address:Port Process                                                               
+ESTAB 0      0          10.0.2.15:2079     10.0.2.2:51740 users:(("sshd-session",pid=845,fd=7),("sshd-session",pid=822,fd=7))
+ESTAB 0      0          10.0.2.15:2079     10.0.2.2:49374 users:(("sshd-session",pid=893,fd=7),("sshd-session",pid=885,fd=7))
+
+root     sshd pts/1   2026-11-18 12:40 (10.0.2.2)
+gvi-1    sshd pts/0   2026-11-18 12:37 (10.0.2.2)
+lecel    seat0        2026-11-18 12:00
+lecel    tty1         2026-11-18 12:00
+
+id u1 u2
+uid=1002(u1) gid=1002(u1) groups=1002(u1),1007(project),1008(task3-3_admin)
+uid=1003(u2) gid=1003(u2) groups=1003(u2),1007(project)
+
+/DATA:
+total 16
+-rw-rw-r-- 1 u3   u3               4 Nov 11 22:32 example.txt
+drwxrwxrwt 2 root root          4096 Nov 13 14:51 sec1
+drwxr-x--- 2 u1   task3-3_group 4096 Nov 11 23:58 sec2
+drwxr-xr-x 2 root root          4096 Nov 11 23:35 sec3
+
+/DATA/sec1:
+total 8
+-rw-rw-r-- 1 u1 u1 4 Nov 11 23:13 u1
+-rw-rw-r-- 1 u3 u3 4 Nov 11 23:12 u3
+
+/DATA/sec2:
+total 8
+-rw-rw-r-- 1 u1 u1 5 Nov 11 23:42 e2
+-rw-rw-r-- 1 u1 u3 3 Nov 11 23:58 ex2
+
+/DATA/sec3:
+total 300
+-rwsr-xr-x 1 u1 root 303960 Nov 11 23:35 nano
+permitrootlogin no
+maxauthtries 2
+logingracetime 30
+[?2004h)0[1;50r[m[4l[?7h[39;49m[?25l[?1c[39;49m[m[H[J[48;63H[0;10;1m[37m[41m[ Directory '/etc' is not writable ][39;49m[m[48;65H[0;10;1m[37m[41mFile '/etc/passwd' is un[48;99H[39;49m[m[H[0;10;7m  GNU nano 8.4                                                               /etc/passwd                                                                        [1;159H[m
+[49d[0;10;7m^G[m Help[49;17H[0;10;7m^O[m Write Out    [0;10;7m^F[m Where Is     [0;10;7m^K[m Cut[49;65H[0;10;7m^T[m Execute[81G[0;10;7m^C[m Location     [0;10;7mM-U[m Undo[49;113H[0;10;7mM-A[m Set Mark    [0;10;7mM-][m To Bracket  [0;10;7mM-B[m Previous
+[50d[0;10;7m^X[m Exit[50;17H[0;10;7m^R[m Read File    [0;10;7m^\[m Replace[49G[0;10;7m^U[m Paste[50;65H[0;10;7m^J[m Justify[81G[0;10;7m^/[m Go To Line   [0;10;7mM-E[m Redo[50;113H[0;10;7mM-6[m Copy[50;129H[0;10;7m^B[m Where Was    [0;10;7mM-F[m Next
+[2droot:x:0:0:root:/root:/bin/bash
+[3ddaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+[4dbin:x:2:2:bin:/bin:/usr/sbin/nologin
+[5dsys:x:3:3:sys:/dev:/usr/sbin/nologin
+[6dsync:x:4:65534:sync:/bin:/bin/sync
+[7dgames:x:5:60:games:/usr/games:/usr/sbin/nologin
+[8dman:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+[9dlp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+[10dmail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+[11dnews:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+[12duucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+[13dproxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+[14dwww-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+[15dbackup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+[16dlist:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+[17dirc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+[18d_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+[19dnobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+[20dsystemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+[21ddhcpcd:x:100:65534:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+[22dsystemd-timesync:x:991:991:systemd Time Synchronization:/:/usr/sbin/nologin
+[23dmessagebus:x:990:990:System Message Bus:/nonexistent:/usr/sbin/nologin
+[24dlecel:x:1000:1000:Valeria,,,:/home/lecel:/bin/bash
+[25dsshd:x:989:65534:sshd user:/run/sshd:/usr/sbin/nologin
+[26dgvi-1:x:1001:1001:valeria,,,:/home/gvi-1:/bin/bash
+[27du1:x:1002:1002::/home/u1:/bin/bash
+[28du2:x:1003:1003::/home/u2:/bin/bash
+[29du3:x:1004:1004::/home/u3:/bin/bash
+[30du4:x:1005:1005::/home/u4:/bin/bash
+[31du5:x:1006:1006::/home/u5:/bin/bash
+[2d[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[48;51H[0;10;7m[ line  1/31 ( 3%), col  1/32 (  3%), char    0/1456 ( 0%) ][m[?25h[?0c
+[2d[?25l[?1c[48;67H[1K [0;10;1m[37m[41m[ To suspend, type ^T^Z ][39;49m[m[K[?25h[?0c
+[2d[?25l[?1c[48;51H[0;10;7m[ line  1/31 ( 3%), col  1/32 (  3%), char    0/1456 ( 0%) ][m[?25h[?0c
+[2d[?25l[?1c[1;90H[0;10;7m*[159G[m[?25h[?0c
+[2d`root:x:0:0:root:/root:/bin/bash
+`[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[49;17H[16X[49;33H[0;10;7mM-C[m Case Sens         [49;65H[0;10;7mM-B[m Backwards[19X[49;97H[0;10;7m^P[m Older[49;113H[16X[49;129H[0;10;7m^T[m Go To Line[K[50;2H[0;10;7mC[m Cancel[17G[16X[50;33H[0;10;7mM-R[m Reg.exp.            [50;66H[0;10;7mR[m Replace[81G[16X[50;97H[0;10;7m^N[m Newer[K[49;142H
+[A[0;10;7mSearch:                                                                                                                                                         [48;9H[m[?25h[?0c[?25l[?1c[0;10;7mf[m[?25h[?0c[?25l[?1c[0;10;7mf[m[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[0;10;7my[m[?25h[?0c[?25l[?1c[0;10;7m [m[?25h[?0c[?25l[?1c[0;10;7m [m[?25h[?0c[?25l[?1c[48;73H[1K [0;10;7m[ Cancelled ][m[K[49;17H[0;10;7m^O[m Write Out    [0;10;7m^F[m Where Is     [0;10;7m^K[m Cut[49;65H[0;10;7m^T[m Execute      [0;10;7m^C[m Location     [0;10;7mM-U[m Undo[49;113H[0;10;7mM-A[m Set Mark    [0;10;7mM-][m To Bracket  [0;10;7mM-B[m Previous[50;2H[0;10;7mX[m Exit  [17G[0;10;7m^R[m Read File    [0;10;7m^\[m Replace      [0;10;7m^U[m Paste[50;66H[0;10;7mJ[m Justify[81G[0;10;7m^/[m Go To Line   [0;10;7mM-E[m Redo[50;113H[0;10;7mM-6[m Copy[50;129H[0;10;7m^B[m Where Was    [0;10;7mM-F[m Next[?25h[?0c
+[2d`[?25l[?1c[48d[0;10;7mSave modified buffer?                                                                                                                                           [49;1H Y[m Yes[K
+[50d[0;10;7m N[m No  [50;18H[0;10;7mC[m Cancel[K[48;23H[?25h[?0c[?25l[?1c
+[49d[0;10;7m^G[m Help[49;41H[0;10;7mM-D[m DOS Format[49;81H[0;10;7mM-A[m Append[49;121H[0;10;7mM-B[m Backup File
+[50d[0;10;7m^C[m Cancel[17G         [50;41H[0;10;7mM-M[m Mac Format[50;81H[0;10;7mM-P[m Prepend[50;121H[0;10;7m^T[m Browse
+[48d[0;10;7mWrite to File: /etc/passwd[m[?25h[?0c[?25l[?1c[48;56H[1K [0;10;1m[37m[41m[ Error writing /etc/passwd: Permission denied ][39;49m[m[K[49;17H[0;10;7m^O[m Write Out    [0;10;7m^F[m Where Is     [0;10;7m^K[m Cu[49;65H[0;10;7m^T[m Execute[81G[0;10;7m^C[m Location     [0;10;7mM-U[m Undo[49;113H[0;10;7mM-A[m Set Mark    [0;10;7mM-][m To Bracket  [0;10;7mM-B[m Previous[50;2H[0;10;7mX[m Exit  [17G[0;10;7m^R[m Read File    [0;10;7m^\[m Replace      [0;10;7m^U[m Paste[50;65H[0;10;7m^J[m Justify[81G[0;10;7m^/[m Go To Line   [0;10;7mM-E[m Redo[50;113H[0;10;7mM-6[m Copy        [0;10;7m^B[m Where Was    [0;10;7mM-F[m Next[?25h[?0c
+[2d`[?25l[?1c[48;67H[1K [0;10;1m[37m[41m[ To suspend, type ^T^Z ][39;49m[m[K[?25h[?0c
+[2d`[?25l[?1c[48;51H[0;10;7m[ line  1/31 ( 3%), col  2/33 (  6%), char    1/1457 ( 0%) ][m[?25h[?0c
+[2d`root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+dhcpcd:x:100:65534:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+systemd-timesync:x:991:991:systemd Time Synchronization:/:/usr/sbin/nologin
+messagebus:x:990:990:System Message Bus:/nonexistent:/usr/sbin/nologin
+lecel:x:1000:1000:Valeria,,,:/home/lecel:/bin/bash
+sshd:x:989:65534:sshd user:/run/sshd:/usr/sbin/nologin
+gvi-1:x:1001:1001:valeria,,,:/home/gvi-1:/bin/bash
+u1:x:1002:1002::/home/u1:/bin/bash
+u2:x:1003:1003::/home/u2:/bin/bash
+u3:x:1004:1004::/home/u3:/bin/bash
+u4:x:1005:1005::/home/u4:/bin/bash
+u5:x:1006:1006::/home/u5:/bin/bash
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:lecel
+floppy:x:25:lecel
+tape:x:26:
+sudo:x:27:lecel,gvi-1
+audio:x:29:lecel
+dip:x:30:lecel
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:lecel
+sasl:x:45:
+plugdev:x:46:lecel
+staff:x:50:
+games:x:60:
+users:x:100:lecel,gvi-1
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+input:x:996:
+sgx:x:995:
+clock:x:994:
+kvm:x:993:
+render:x:992:
+netdev:x:101:lecel
+systemd-timesync:x:991:
+messagebus:x:990:
+_ssh:x:102:
+bluetooth:x:103:lecel
+lecel:x:1000:
+gvi-1:x:1001:
+u1:x:1002:
+u2:x:1003:
+u3:x:1004:
+u4:x:1005:
+u5:x:1006:
+project:x:1007:u1,u2,u3
+task3-3_admin:x:1008:u1
+task3-3_group:x:1009:u4,u5
+u1 ALL=(root) /usr/bin/passwd, !/usr/bin/passwd root, !/usr/bin/passwd 0
